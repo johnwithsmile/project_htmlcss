@@ -1,0 +1,18 @@
+#featured {
+  background-color: gold;
+  font-size: 20px;
+}
+
+#reviews {
+  text-decoration: gold underline;
+}
+
+.underlined {
+  text-decoration: red underline;
+}
+
+.tag {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
