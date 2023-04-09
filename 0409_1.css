@@ -1,0 +1,5 @@
+ul {
+  list-style: "🚀 ";
+  list-style-position: outside;
+  list-style-image: none;
+}
