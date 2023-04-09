@@ -1,0 +1,11 @@
+* {
+  color: red;
+  border: 1px solid green;
+  margin: 0;
+  padding: 0;
+}
+
+.bright {
+  color: orange;
+  font-weight: bold;
+}
