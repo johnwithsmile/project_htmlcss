@@ -1,0 +1,12 @@
+#google {
+  color: olive;
+}
+
+#google:visited {
+  color: orange;
+}
+
+#google:hover {
+  color: magenta;
+  /* cursor: wait; */
+}
