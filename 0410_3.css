@@ -1,0 +1,7 @@
+div h2 {
+  color: red;
+}
+
+ul > li {
+  border: 1px solid red;
+}
