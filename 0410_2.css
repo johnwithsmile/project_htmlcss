@@ -1,0 +1,9 @@
+h1,
+h2 {
+  color: burlywood;
+}
+
+.score,
+.tag {
+  text-decoration: underline;
+}

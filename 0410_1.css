@@ -1,0 +1,15 @@
+input[type="number"] {
+  background-color: gold;
+}
+
+a[href*="wiki"] {
+  color: cyan;
+}
+
+a[href^="#"] {
+  color: darkviolet;
+}
+
+a[href$=".org"] {
+  color: red;
+}
