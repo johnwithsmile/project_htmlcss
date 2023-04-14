@@ -1,0 +1,23 @@
+h1:hover {
+  color: orange;
+  font-size: 45px;
+}
+
+h2::first-letter {
+  color: red;
+}
+
+ol:first-of-type {
+  border: 1px solid magenta;
+}
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 3px;
+}
+
+dd:nth-last-of-type(2n) {
+  border: 2px solid orange;
+}

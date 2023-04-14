@@ -1,0 +1,7 @@
+h1 + p {
+  color: deeppink;
+}
+
+h2 ~ p {
+  color: aqua;
+}
