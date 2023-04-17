@@ -25,6 +25,7 @@ input[type="checkbox"]:checked {
 }
 
 /* Select the first letter of each paragraph and give them a color of blue and a font-size of 30 pixels */
+
 p::first-letter {
   color: blue;
   font-size: 30px;
