@@ -1,12 +1,11 @@
 body {
-  margin: 0;
   padding: 0;
-  font-family: "Forum", cursive;
+  margin: 0;
+  font-family: "Forum", serif;
 }
-
 .hero {
-  background-color: bisque;
   min-height: 90vh;
+  background-color: #f08e80;
   color: white;
   display: inline-block;
 }
@@ -21,8 +20,8 @@ body {
 }
 
 .navbar .links a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
   margin-right: 16px;
   font-size: 1.2rem;
 }
@@ -32,10 +31,9 @@ body {
   font-weight: bold;
   margin: 0;
 }
-
 .navbar .contact {
   background-color: white;
-  color: bisque;
+  color: #f08e80;
   padding: 16px 24px;
   text-decoration: none;
 }
@@ -44,7 +42,7 @@ body {
   opacity: 0.8;
 }
 
-.hero_content {
+.hero-content {
   padding: 0 15%;
 }
 
@@ -55,17 +53,17 @@ body {
   padding: 32px 0;
 }
 
-.two_colum_section {
+.two-column-section {
   font-size: 2rem;
 }
 
-.two_colum_section p {
+.two-column-section > p {
   width: 50%;
   box-sizing: border-box;
   float: left;
 }
 
-.two_colum_section .skills {
+.two-column-section .skills {
   width: 50%;
   float: left;
   box-sizing: border-box;
@@ -73,9 +71,93 @@ body {
   list-style: none;
 }
 
-.two_colum_section .skills li {
+.two-column-section .skills li {
   width: 50%;
   float: left;
   font-size: 1.25rem;
   margin: 8px 0;
+}
+
+.blog-section {
+  background-color: white;
+  padding: 64px 0;
+}
+
+.blog-content {
+  padding: 0 15%;
+}
+
+.two-column-section .blog-posts {
+  width: 50%;
+  float: left;
+}
+
+.blog-heading {
+  font-size: 1.5rem;
+}
+.blog-text {
+  font-size: 1rem;
+}
+.blog-posts {
+  margin-top: 24px;
+}
+
+.blog-posts .blog-date {
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 32px;
+}
+.blog-posts p {
+  margin: 8px 0;
+}
+
+.events-section {
+  background-color: #fdf0e6;
+  padding: 64px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.events-content {
+  padding: 0 15%;
+}
+
+.events-card {
+  width: 50%;
+  float: left;
+  margin-top: 24px;
+}
+
+.events-card p {
+  margin: 8px 0;
+}
+
+.event-title {
+  font-size: 1.5rem;
+}
+
+.event-location {
+  font-size: 1rem;
+}
+
+.events-card .event-date {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 32px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 60px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+footer img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 8px;
 }
