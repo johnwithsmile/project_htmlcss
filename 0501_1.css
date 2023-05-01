@@ -1,0 +1,25 @@
+/* liner gradient */
+.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient(
+    to bottom right,
+    cyan,
+    magenta,
+    bisque,
+    black
+  );
+}
+
+/* radial gradient */
+
+.box {
+  background-image: radial-gradient(cyan, pink, yellow);
+}
+
+/* background shorthand property */
+.box {
+  background: green;
+  background: url("images/peacock.png") no-repeat, center/200%;
+}
