@@ -1,0 +1,35 @@
+.box1 {
+  background-color: orangered;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  top: 0;
+}
+
+.box2 {
+  background-color: red;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  top: 0;
+}
+
+.box3 {
+  background-color: purple;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+}
+
+.box4 {
+  background-color: navy;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  bottom: 0;
+}
