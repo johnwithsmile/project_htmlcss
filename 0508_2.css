@@ -1,0 +1,15 @@
+.btn {
+  border: 2px solid black;
+  color: orangered;
+  padding: 10px 20px;
+  margin: 30px;
+  display: inline-block;
+  background-color: white;
+  transition: all 5s;
+  /* text-decoration: none; */
+}
+
+.btn:hover {
+  background-color: orangered;
+  color: white;
+}
