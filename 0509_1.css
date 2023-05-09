@@ -1,0 +1,12 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: olive;
+  display: inline-block;
+  /* transform: translateX(400px); */
+}
+
+.first {
+  background-color: orangered;
+  transform: translate(100px, 100px);
+}

@@ -1,0 +1,19 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: olive;
+  display: inline-block;
+  /* transform: translateX(400px); */
+}
+
+.first {
+  background-color: orangered;
+  transform: scale(2, 4);
+}
+
+h1 {
+  transform: scaleY(0.7);
+  /* transform: rotate(90deg); */
+  border: 1px solid salmon;
+  display: inline-block;
+}
